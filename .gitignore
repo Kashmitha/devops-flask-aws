@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Environment variables — NEVER commit secrets
+.env
+.env.*
+*.env
+
+# AWS credentials — critical, never commit
+.aws/
+credentials
+aws-credentials.json
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Docker
+docker-compose.override.yml
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+desktop.ini
