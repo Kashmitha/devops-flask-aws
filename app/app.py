@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "running",
-        "message": "DevOps Internship Project 🚀",
+        "message": "DevOps Internship Project 🚀 This is for Testing My App",
         "host": socket.gethostname(),
         "python": platform.python_version()
     })
